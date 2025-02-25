@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME IO - Eyüp ve Uğur Bey Gururla Sunar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .header {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">GAME IO</h1>
+    <p>Eyüp ve Uğur Bey Gururla Sunar</p>
+    
+    <div class="gallery">
+        <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/09/PUBG_Steam_Logo.jpg" alt="PUBG">
+        </a>
+        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/tr/6/6f/Counter-Strike_Global_Offensive_Logo.png" alt="CS:GO">
+        </a>
+        <a href="https://steamcommunity.com/market/listings/578080/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Pubg_weapon.jpg" alt="PUBG Skin">
+        </a>
+        <a href="https://steamcommunity.com/market/listings/730/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Csgo_knife_skin.jpg" alt="CS:GO Skin">
+        </a>
+    </div>
+</body>
+</html>
